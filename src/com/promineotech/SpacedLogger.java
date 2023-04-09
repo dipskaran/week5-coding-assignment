@@ -1,7 +1,10 @@
 package com.promineotech;
 
 public class SpacedLogger implements Logger {
-
+    /**
+     * This method prints the with space
+     * each character in the string passed
+     */
 	@Override
 	public void Log(String log) {
 		
@@ -12,7 +15,11 @@ public class SpacedLogger implements Logger {
 		System.out.println(str);
 
 	}
-
+	/**
+	 * This method prints the with space
+     * each character in the string passed
+     * appended with ERROR 
+	 */
 	@Override
 	public void Error(String error) {
 		String str="";
